@@ -25,7 +25,7 @@ Các bạn cần cài đặt:
 
 **C++ 2022 x64**: https://aka.ms/vs/17/release/vc_redist.x64.exe
 
-**.NET framework 4.6.1**: https://dotnet.microsoft.com/en-us/download/dotnet-framework/net4612
+**.NET framework 4.7.2**: https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-offline-installer
 
 ## Cách convert file pt sang onnx
 
