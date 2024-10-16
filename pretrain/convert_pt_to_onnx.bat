@@ -1,0 +1,1 @@
+yolo export model='./yolov8n.pt' imgsz=640,640 format=onnx opset=12 simplify=True dynamic=False
