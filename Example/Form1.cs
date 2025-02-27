@@ -26,7 +26,9 @@ namespace WindowsFormsApp1
             YOLOv8Detector detector = new YOLOv8Detector(@"..\pretrain\yolov8n.onnx", @"..\pretrain\coco.names", 640, 640);
 
             //Detect ảnh hoặc đường dẫn ảnh
-            Predicted predicted = detector.Detect("e-class.jpg", true);
+            bool drawRect = true;
+            bool drawText = true;
+            Predicted predicted = detector.Detect("e-class.jpg", drawRect, drawText);
 
             //hiển thị ảnh đã vẽ bouding box lên picture box
             pictureBox2.Image = predicted.bitmap;
